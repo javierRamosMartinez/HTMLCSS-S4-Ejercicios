@@ -1,0 +1,152 @@
+.cabecera{
+    width: 60%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 0px;
+    border-bottom: 1px solid white;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+}
+.cWhite{
+    color: #c2c9d6;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    background-image: url('bmw-1368280_1920.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    justify-content: space-between;
+}
+.white{
+    color: white;
+}
+.icon{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.pestanas{
+    display: inline-block;
+    align-items: center;
+    flex-direction: row;
+}
+.s_padding{
+    padding-right: 12px;
+}
+.headerTitle{
+    display: flex;
+    flex-direction: column;
+}
+*{
+    font-family: Arial;
+}
+.btn{
+    background-color: #1C69D5;
+    padding: 12px 24px;
+    border-radius: 8px;
+    width: fit-content;
+}
+.prueba{
+   margin-bottom: 52px;
+   margin-left: 48px;
+}
+.siteMap{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top :24px;
+}
+.u_column_left{
+    display: flex;
+    flex-direction: column;
+}
+.spacer{
+    height: 68px;
+}
+.galeria{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: flex-start;
+}
+.tarjeta{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.productInfo{
+    display: flex;
+    flex-direction: column;
+}
+.smallText{
+    font-size: small;
+}
+.pagesNav{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 auto;
+    justify-content: flex-start;
+    
+}
+.tarjeta1{
+    width: 21%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 8px;
+    border: 1px solid #cacaca;
+    border-radius: 8px;
+    margin: 4px;
+}
+.img1{
+    max-width: 100%;
+    border-radius: 4px;
+}
+.linkVideos{
+    display: flex;
+    justify-content: center;
+}
+.hCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 8px;
+    border: 1px solid #cacaca;
+    border-radius: 8px;
+    margin: 4px;
+}
+footer{
+    background-color: #cacaca;
+    padding: 48px 24px;
+}
+.barraHoriz{
+    display: flex;
+    justify-content: center;
+}
+.col{
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        height: 80px;
+        justify-content: center;
+        align-items: center;
+        margin: 12px;
+        background-color: #F2F2F2;
+        border-radius: 4px;
+}
+.models{
+    margin-left: 48px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 8px 24px;
+}
